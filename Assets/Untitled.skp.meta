@@ -1,0 +1,389 @@
+fileFormatVersion: 2
+guid: 8ab13955867924cfe8373fc6892ab86a
+timeCreated: 1460643287
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 00000000790000007a0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 1f13eb4a40efc6f59adc64b7e569bfc5
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 728.94946, y: -34.335556, z: -666.3791}
+      lookAt: {x: -113.03367, y: 1628.1581, z: 1171.754}
+      up: {x: 0.26450324, y: 0.77240187, z: -0.5774369}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: '#1 SubD(object)'
+    100002: '#1 SubD(object)_MeshPart0'
+    100004: '#1 SubD(object)_MeshPart1'
+    100006: 3d man walking
+    100008: Component#2
+    100010: 'Detailed Waterfall #1'
+    100012: dragon
+    100014: erebor#1
+    100016: Group 135
+    100018: Group 139
+    100020: Group 139_MeshPart0
+    100022: Group 139_MeshPart1
+    100024: Group 141
+    100026: Group 143
+    100028: Group 145
+    100030: Group 147
+    100032: Group 149
+    100034: Group 151
+    100036: Group 153
+    100038: Group 155
+    100040: Group 157
+    100042: Group 159
+    100044: Group 161
+    100046: Group 163
+    100048: Group 165
+    100050: Group 167
+    100052: Group 169
+    100054: Group 171
+    100056: Group 173
+    100058: Group 175
+    100060: Group 177
+    100062: Group 179
+    100064: Group 181
+    100066: Group 183
+    100068: Group 185
+    100070: Group 187
+    100072: Group 189
+    100074: Group 191
+    100076: Group 193
+    100078: Group 195
+    100080: Group 197
+    100082: Group 199
+    100084: Group 201
+    100086: Group 203
+    100088: Group 205
+    100090: Group 207
+    100092: Group 209
+    100094: Group 211
+    100096: Group 213
+    100098: Group 215
+    100100: Group 217
+    100102: Group 219
+    100104: Group 221
+    100106: Group 223
+    100108: Group 225
+    100110: Group 227
+    100112: Group 229
+    100114: mhead-3
+    100116: Mountain#10
+    100118: Mountain#11
+    100120: Mountain#7
+    100122: Mountain#8
+    100124: Mountain#9
+    100126: pants-3
+    100128: shirt-3
+    100130: shoes-3
+    100132: shorts-3
+    100134: ske59B4
+    100136: //RootNode
+    400000: '#1 SubD(object)'
+    400002: '#1 SubD(object)_MeshPart0'
+    400004: '#1 SubD(object)_MeshPart1'
+    400006: 3d man walking
+    400008: Component#2
+    400010: 'Detailed Waterfall #1'
+    400012: dragon
+    400014: erebor#1
+    400016: Group 135
+    400018: Group 139
+    400020: Group 139_MeshPart0
+    400022: Group 139_MeshPart1
+    400024: Group 141
+    400026: Group 143
+    400028: Group 145
+    400030: Group 147
+    400032: Group 149
+    400034: Group 151
+    400036: Group 153
+    400038: Group 155
+    400040: Group 157
+    400042: Group 159
+    400044: Group 161
+    400046: Group 163
+    400048: Group 165
+    400050: Group 167
+    400052: Group 169
+    400054: Group 171
+    400056: Group 173
+    400058: Group 175
+    400060: Group 177
+    400062: Group 179
+    400064: Group 181
+    400066: Group 183
+    400068: Group 185
+    400070: Group 187
+    400072: Group 189
+    400074: Group 191
+    400076: Group 193
+    400078: Group 195
+    400080: Group 197
+    400082: Group 199
+    400084: Group 201
+    400086: Group 203
+    400088: Group 205
+    400090: Group 207
+    400092: Group 209
+    400094: Group 211
+    400096: Group 213
+    400098: Group 215
+    400100: Group 217
+    400102: Group 219
+    400104: Group 221
+    400106: Group 223
+    400108: Group 225
+    400110: Group 227
+    400112: Group 229
+    400114: mhead-3
+    400116: Mountain#10
+    400118: Mountain#11
+    400120: Mountain#7
+    400122: Mountain#8
+    400124: Mountain#9
+    400126: pants-3
+    400128: shirt-3
+    400130: shoes-3
+    400132: shorts-3
+    400134: ske59B4
+    400136: //RootNode
+    2300000: '#1 SubD(object)_MeshPart0'
+    2300002: '#1 SubD(object)_MeshPart1'
+    2300004: 3d man walking
+    2300006: Component#2
+    2300008: 'Detailed Waterfall #1'
+    2300010: erebor#1
+    2300012: Group 135
+    2300014: Group 139_MeshPart0
+    2300016: Group 139_MeshPart1
+    2300018: Group 141
+    2300020: Group 143
+    2300022: Group 145
+    2300024: Group 147
+    2300026: Group 149
+    2300028: Group 151
+    2300030: Group 153
+    2300032: Group 155
+    2300034: Group 157
+    2300036: Group 159
+    2300038: Group 161
+    2300040: Group 163
+    2300042: Group 165
+    2300044: Group 167
+    2300046: Group 169
+    2300048: Group 171
+    2300050: Group 173
+    2300052: Group 175
+    2300054: Group 177
+    2300056: Group 179
+    2300058: Group 181
+    2300060: Group 183
+    2300062: Group 185
+    2300064: Group 187
+    2300066: Group 189
+    2300068: Group 191
+    2300070: Group 193
+    2300072: Group 195
+    2300074: Group 197
+    2300076: Group 199
+    2300078: Group 201
+    2300080: Group 203
+    2300082: Group 205
+    2300084: Group 207
+    2300086: Group 209
+    2300088: Group 211
+    2300090: Group 213
+    2300092: Group 215
+    2300094: Group 217
+    2300096: Group 219
+    2300098: Group 221
+    2300100: Group 223
+    2300102: Group 225
+    2300104: Group 227
+    2300106: Group 229
+    2300108: mhead-3
+    2300110: Mountain#10
+    2300112: Mountain#11
+    2300114: Mountain#7
+    2300116: Mountain#8
+    2300118: Mountain#9
+    2300120: pants-3
+    2300122: shirt-3
+    2300124: shoes-3
+    2300126: shorts-3
+    3300000: '#1 SubD(object)_MeshPart0'
+    3300002: '#1 SubD(object)_MeshPart1'
+    3300004: 3d man walking
+    3300006: Component#2
+    3300008: 'Detailed Waterfall #1'
+    3300010: erebor#1
+    3300012: Group 135
+    3300014: Group 139_MeshPart0
+    3300016: Group 139_MeshPart1
+    3300018: Group 141
+    3300020: Group 143
+    3300022: Group 145
+    3300024: Group 147
+    3300026: Group 149
+    3300028: Group 151
+    3300030: Group 153
+    3300032: Group 155
+    3300034: Group 157
+    3300036: Group 159
+    3300038: Group 161
+    3300040: Group 163
+    3300042: Group 165
+    3300044: Group 167
+    3300046: Group 169
+    3300048: Group 171
+    3300050: Group 173
+    3300052: Group 175
+    3300054: Group 177
+    3300056: Group 179
+    3300058: Group 181
+    3300060: Group 183
+    3300062: Group 185
+    3300064: Group 187
+    3300066: Group 189
+    3300068: Group 191
+    3300070: Group 193
+    3300072: Group 195
+    3300074: Group 197
+    3300076: Group 199
+    3300078: Group 201
+    3300080: Group 203
+    3300082: Group 205
+    3300084: Group 207
+    3300086: Group 209
+    3300088: Group 211
+    3300090: Group 213
+    3300092: Group 215
+    3300094: Group 217
+    3300096: Group 219
+    3300098: Group 221
+    3300100: Group 223
+    3300102: Group 225
+    3300104: Group 227
+    3300106: Group 229
+    3300108: mhead-3
+    3300110: Mountain#10
+    3300112: Mountain#11
+    3300114: Mountain#7
+    3300116: Mountain#8
+    3300118: Mountain#9
+    3300120: pants-3
+    3300122: shirt-3
+    3300124: shoes-3
+    3300126: shorts-3
+    4300000: Mesh erebor#1
+    4300002: Mesh Mountain#8
+    4300004: Mesh Mountain#9
+    4300006: 'Mesh #1 SubD(object)_MeshPart0'
+    4300008: 'Mesh #1 SubD(object)_MeshPart1'
+    4300010: 'Mesh Detailed Waterfall #1'
+    4300012: Mesh Group 135
+    4300014: Mesh Component#2
+    4300016: Mesh Group 139_MeshPart0
+    4300018: Mesh Group 139_MeshPart1
+    4300020: Mesh Group 141
+    4300022: Mesh Group 143
+    4300024: Mesh Group 145
+    4300026: Mesh Group 147
+    4300028: Mesh Group 149
+    4300030: Mesh Group 151
+    4300032: Mesh Group 157
+    4300034: Mesh Group 163
+    4300036: Mesh Group 165
+    4300038: Mesh Group 177
+    4300040: Mesh Group 195
+    4300042: Mesh Group 197
+    4300044: Mesh Group 199
+    4300046: Mesh Mountain#10
+    4300048: Mesh Mountain#11
+    4300050: Mesh Mountain#7
+    4300052: Mesh 3d man walking
+    4300054: Mesh mhead-3
+    4300056: Mesh shirt-3
+    4300058: Mesh pants-3
+    4300060: Mesh shoes-3
+    4300062: Mesh shorts-3
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
