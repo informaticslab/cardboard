@@ -80,7 +80,7 @@ public class SceneNavigation : MonoBehaviour {
 	}
 
 	public static void goHome(){
-		SceneManager.LoadScene ("_scenes/Main_dev", LoadSceneMode.Single);
+		SceneManager.LoadScene ("_scenes/Main", LoadSceneMode.Single);
 
 	}
 
