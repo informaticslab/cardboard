@@ -15,6 +15,7 @@ public class CameraOrbit : MonoBehaviour {
 	}
 
 	public void onClick (){
+		SceneOrientation.offset = VRInput.Instance.Yaw;
 		SceneNavigation.goHome();
 	}
 }

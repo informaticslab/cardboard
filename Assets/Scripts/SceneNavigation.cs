@@ -29,7 +29,6 @@ public class SceneNavigation : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		//button = GetComponent<GameObject> ();
 		previousYaw = VRInput.Instance.Yaw;
 		initial = button.GetComponent<Image> ().color;
 	}
@@ -58,7 +57,7 @@ public class SceneNavigation : MonoBehaviour {
 		Quaternion menuPitch = Quaternion.AngleAxis(pitch, Vector3.right);
 		Quaternion deviceRotation = Quaternion.AngleAxis(deviceYaw, Vector3.up);
 		Quaternion devicePitchRotation = Quaternion.AngleAxis(-devicePitch, Vector3.right);
-		///TODO: try an ease on this to smooth out the edges
+
 
 		if(!lockPitch){
 			UI.transform.localRotation = deviceRotation *Quaternion.AngleAxis( currentYaw, Vector3.up)*menuPitch;
@@ -75,19 +74,23 @@ public class SceneNavigation : MonoBehaviour {
 		if (button.tag.Equals("Exit")) {
 			Application.Quit ();
 		} else if (button.tag.Equals("Back")) {
+			SceneOrientation.offset = VRInput.Instance.Yaw;
 			goHome ();
 		}
 	}
 
 	public static void goHome(){
 		SceneManager.LoadScene ("_scenes/Main_dev", LoadSceneMode.Single);
+
 	}
 
 	public void hovered (){
 		button.GetComponentInChildren<Text> ().color = Color.white;
+		button.gameObject.transform.localScale += new Vector3(0.05F, 0.05F, 0);
 	}
 
 	public void unhovered (){
 		button.GetComponentInChildren<Text> ().color = initial;
+		button.gameObject.transform.localScale -= new Vector3 (0.05F, 0.05F, 0);
 	}
 }
