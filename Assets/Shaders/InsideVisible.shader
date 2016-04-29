@@ -45,6 +45,7 @@ SubShader {
 				fixed4 col = tex2D(_MainTex, i.texcoord);
 				return col;
 			}
+
 		ENDCG
 	}
 }

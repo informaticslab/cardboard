@@ -45,10 +45,10 @@ public class MenuItemController : MonoBehaviour {
 	public void clickItem (){
 		Debug.Log ("clicked item " +image.tag);
 
-		if (which != 1) {
+
 			SceneOrientation.offset = VRInput.Instance.Yaw;
 			SceneManager.LoadScene (scenes [which], LoadSceneMode.Single);
-		}
+
 	}
 
 }
