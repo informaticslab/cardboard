@@ -32,20 +32,20 @@ public class CardboardReticle : MonoBehaviour, ICardboardGazePointer {
   // Current inner angle of the reticle (in degrees).
   private float reticleInnerAngle = 0.0f;
   // Current outer angle of the reticle (in degrees).
-  private float reticleOuterAngle = 0.2f;
+  private float reticleOuterAngle = 0.1f;
   // Current distance of the reticle (in meters).
   private float reticleDistanceInMeters = 10.0f;
 
   // Minimum inner angle of the reticle (in degrees).
   private const float kReticleMinInnerAngle = 0.0f;
   // Minimum outer angle of the reticle (in degrees).
-  private const float kReticleMinOuterAngle = 0.2f;
+  private const float kReticleMinOuterAngle = 0.1f;
   // Angle at which to expand the reticle when intersecting with an object
   // (in degrees).
-  private const float kReticleGrowthAngle = 1.5f;
+  private const float kReticleGrowthAngle = .5f;
 
   // Minimum distance of the reticle (in meters).
-  private const float kReticleDistanceMin = 0.45f;
+  private const float kReticleDistanceMin = 0.25f;
   // Maximum distance of the reticle (in meters).
   private const float kReticleDistanceMax = 10.0f;
 

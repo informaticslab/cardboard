@@ -71,17 +71,25 @@ public class SceneNavigation : MonoBehaviour {
 		}
 	}
 	public void onClick (){
-		if (button.tag.Equals("Exit")) {
+		if (button.tag.Equals ("Exit")) {
 			Application.Quit ();
-		} else if (button.tag.Equals("Back")) {
+		} else if (button.tag.Equals ("Back")) {
 			SceneOrientation.offset = VRInput.Instance.Yaw;
 			goHome ();
+		} else if (button.tag.Equals ("Reset")) {
+			SceneOrientation.offset = VRInput.Instance.Yaw;
+			resetApplication ();
 		}
+
 	}
 
 	public static void goHome(){
 		SceneManager.LoadScene ("_scenes/Main", LoadSceneMode.Single);
 
+	}
+
+	public static void resetApplication(){
+		SceneManager.LoadScene ("_scenes/Tutorial", LoadSceneMode.Single);
 	}
 
 	public void hovered (){

@@ -7,9 +7,9 @@ public class MenuItemController : MonoBehaviour {
 	public Image image;
 	public Text label;
 
-	private ArrayList menuItems = new ArrayList{ "Cat Pic", "Cat Video", "Tutorial", "Cat Object", "Virtual Tour" };
-	private string[] labels = { "Pic", "Vid", "Tutorial", "3d Heart", "Tour" };
-	private string[] scenes = { "_scenes/CatPicture", "_scenes/CatVideo","_scenes/Tutorial", "_scenes/CatObject", "_scenes/Office360" };
+	private ArrayList menuItems = new ArrayList{ "Cat Pic", "Cat Video", "Cat Object", "Virtual Tour" };
+	private string[] labels = { "Pic", "Vid", "3d Heart", "Tour" };
+	private string[] scenes = { "_scenes/CatPicture", "_scenes/CatVideo", "_scenes/CatObject", "_scenes/Office360" };
 
 	/*
 	private ArrayList menuItems = new ArrayList{ "Cat Pic", "Cat Video", "Cat Object", "Virtual Tour" };
