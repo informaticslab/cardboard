@@ -8,7 +8,7 @@ public class MenuItemController : MonoBehaviour {
 	public Text label;
 
 	private ArrayList menuItems = new ArrayList{ "Cat Pic", "Cat Video", "Cat Object", "Virtual Tour" };
-	private string[] labels = { "Pic", "Vid", "3d Heart", "Tour" };
+	private string[] labels = { "Pic", "Vid", "3D Heart", "Tour" };
 	private string[] scenes = { "_scenes/CatPicture", "_scenes/CatVideo", "_scenes/CatObject", "_scenes/Office360" };
 
 	/*
@@ -47,8 +47,14 @@ public class MenuItemController : MonoBehaviour {
 
 
 			SceneOrientation.offset = VRInput.Instance.Yaw;
-			SceneManager.LoadScene (scenes [which], LoadSceneMode.Single);
+			StartCoroutine(ChangeScene(scenes[which]));
+			//SceneManager.LoadScene (scenes [which], LoadSceneMode.Single);
 
 	}
-
+	IEnumerator ChangeScene(string scene){
+		//yield return new WaitForSeconds (0.6f);
+		float fadeTime = GameObject.Find ("OrientationRoot").GetComponent<Fading> ().BeginFade (1);
+		yield return new WaitForSeconds (0.5f);
+		SceneManager.LoadScene (scene, LoadSceneMode.Single);	
+	}
 }

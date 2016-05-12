@@ -8,8 +8,8 @@ public class Tutorial : MonoBehaviour {
 	public Button next;
 
 	public void onClick (){
-			text1.gameObject.SetActive (false);
-			text2.gameObject.SetActive (true);
-			next.gameObject.SetActive (false);
+		text1.gameObject.GetComponent<Animator> ().enabled = true;
+		text2.gameObject.SetActive (true);
+		next.gameObject.SetActive (false);
 	}
 }

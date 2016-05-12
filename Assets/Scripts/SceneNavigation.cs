@@ -75,17 +75,16 @@ public class SceneNavigation : MonoBehaviour {
 			Application.Quit ();
 		} else if (button.tag.Equals ("Back")) {
 			SceneOrientation.offset = VRInput.Instance.Yaw;
-			goHome ();
+			StartCoroutine (ChangeScene("_scenes/Main"));
 		} else if (button.tag.Equals ("Reset")) {
 			SceneOrientation.offset = VRInput.Instance.Yaw;
-			resetApplication ();
+			StartCoroutine (ChangeScene ("_scenes/Tutorial"));
 		}
 
 	}
 
 	public static void goHome(){
-		SceneManager.LoadScene ("_scenes/Main", LoadSceneMode.Single);
-
+		goHome ();
 	}
 
 	public static void resetApplication(){
@@ -100,5 +99,11 @@ public class SceneNavigation : MonoBehaviour {
 	public void unhovered (){
 		button.GetComponentInChildren<Text> ().color = initial;
 		button.gameObject.transform.localScale -= new Vector3 (0.05F, 0.05F, 0);
+	}
+	IEnumerator ChangeScene(string scene){
+		//yield return new WaitForSeconds (0.6f);
+		float fadeTime = GameObject.Find ("OrientationRoot").GetComponent<Fading> ().BeginFade (1);
+		yield return new WaitForSeconds (0.5f);
+		SceneManager.LoadScene (scene, LoadSceneMode.Single);	
 	}
 }

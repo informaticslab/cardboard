@@ -16,6 +16,12 @@ public class CameraOrbit : MonoBehaviour {
 
 	public void onClick (){
 		SceneOrientation.offset = VRInput.Instance.Yaw;
-		SceneNavigation.goHome();
+		StartCoroutine("ChangeScene");
+	}
+	IEnumerator ChangeScene(){
+		//yield return new WaitForSeconds (0.6f);
+		float fadeTime = GameObject.Find ("OrientationRoot").GetComponent<Fading> ().BeginFade (1);
+		yield return new WaitForSeconds (0.5f);
+		SceneManager.LoadScene ("_Scenes/Main", LoadSceneMode.Single);	
 	}
 }

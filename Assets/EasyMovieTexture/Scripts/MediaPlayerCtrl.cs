@@ -34,6 +34,9 @@ public class MediaPlayerCtrl : MonoBehaviour {
 	public VideoError OnVideoError;
 	public VideoFirstFrameReady OnVideoFirstFrameReady;
 
+	//use to disable reticle when player is focused
+	public GameObject reticle;
+
 #if UNITY_IPHONE || UNITY_TVOS
 	
 	private int m_iPauseFrame;
@@ -1710,5 +1713,10 @@ public class MediaPlayerCtrl : MonoBehaviour {
         }
 
     }
-
+	public void hovered(){
+		reticle.SetActive(false);
+	}
+	public void unHovered(){
+		reticle.SetActive(true);
+	}
 }

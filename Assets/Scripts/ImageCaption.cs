@@ -6,12 +6,21 @@ public class ImageCaption : MonoBehaviour {
 	
 	public GameObject captionButton;
 	public GameObject caption;
+	private Animator anim;
+
+	void Start(){
+		anim = caption.GetComponent<Animator> ();
+	}
 
 	public void onClick(){
-		if (caption.gameObject.activeInHierarchy) {
-			caption.gameObject.SetActive (false);
+		if (anim.enabled == false) {
+			anim.enabled = true;
 		} else {
-			caption.gameObject.SetActive (true);
+			if (anim.GetBool ("isHidden") == true) {
+				anim.SetBool ("isHidden", false);
+			} else {
+				anim.SetBool ("isHidden", true);
+			}
 		}
 	}
 }
